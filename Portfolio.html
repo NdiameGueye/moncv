@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Portfolio</title>
+    <style>
+        body{
+            background-image: url(./road-pavement-on-the-desert.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: sans-serif;
+            background-attachment: fixed;
+        }
+        #contenair{
+            display:inline-flex;
+            width: 100%;
+            height: 685px;
+        }
+        #gauche{
+            position: fixed;
+            width: 30%;
+            height: 100%;
+        }
+        #droite{
+            width: 70%;
+            height: 100%;
+            padding-left: 30%;
+        }
+        #profile{
+            height: 300px;
+            width: 400px;
+            border-radius: 50%;
+        }
+        .nom{
+            font-size: 50px;
+            text-align: center;
+            padding-top: 100px;
+            text-decoration: underline;
+        }
+        /* droite nav */
+        header{
+            background-color: rgba(15, 15, 10, 0.815);
+            height: 60px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            transition: background-color 0.4s ease-in-out;
+            position: fixed;
+        }
+        header.scrolled{
+            background-color: white;
+            opacity: 0.98;
+        }
+
+        header nav {
+            padding-left: 10%;
+            font-weight: bold;
+        }
+        header nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            margin: 20px;
+            transition: color 0.4s ease-in-out;
+        }
+        header.scrolled nav a {
+            color: black;
+
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        /* End nav */
+
+        img:hover{
+            opacity: 0.5;
+            cursor: progress;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenair">
+        <div id="gauche">
+            <img id="profile" src="./daa.jpg" alt="">
+            <h1 class="nom">Ndiame <br> GUEYE</h1>
+            <p style="font-size:50px;text-align: center;">💫</p>
+
+        </div>
+        <!-- end left -->
+        <div id="droite">
+            <header>
+                <nav>
+                    
+                    <a href="#ACCEUIL">PROFILE</a>
+                    <a href="#education">EDUCATION</a>
+                    <a href="#experience">EXPERIENCE</a>
+                    <a href="#skills">COMPETENCES</a>
+                    <a href="#contact">CONTACT</a>                   
+                    
+                </nav>
+            </header>
+            <div id="ACCEUIL">
+               <p style="font-size: 40px;padding-left: 5%; text-align: center; padding-top: 10%;">
+                Salut comment vous allez ? <br>
+                Mon nom c'est Ndiame GUEYE. <br>
+                J'ai eu mon BFEM. <br>
+                J'ai eu mon bacalauréat en série S2. <br>
+                Je suis étudiant en informatique
+                développement d'application (webs
+                , mobiles,gamings) à l'Université Virtuelle du Sénégal et en Génie Informatique à HEMI.
+               </p> 
+            </div><br><br><br>
+            <!-- end infos -->
+            <!-- education -->
+            <div id="education">
+                <h1 style="text-decoration: underline;text-align: center;padding-top: 100px;">EDUCATION</h1>
+                <h1 style="text-decoration: underline;padding-top: 50px;">FIRST INSTITUTE</h1>
+                <p style="font-size: 40px;">Ma pédagogie c'est le Français et l'anglais . <br>
+                    J'ai appris le Français depuis le CI à la Terminale et l'Anglais à la 6ème à la Terminale. <br>
+                    J'ai décroché mon entrant 6éme ensuite mon BFEM puis mon BAC S2 en 2021 ET je poursuis mes études en informatique. <br>
+                    </p>
+            </div>
+           
+            <!-- End education -->
+
+            <!-- Experience -->
+            <div id="experience">
+                <h1 style="text-decoration: underline; text-align: center;padding-top: 100px;">EXPERIENCE</h1>
+                <h1 style="text-decoration: underline;">EXPERIENCE N°1</h1>
+                <p style="font-size: 30px;">
+                    Je suis étudiant en informatique développement d'application <br>
+                     (webs, mobiles,gamings) à l'Université Virtuelle du Sénégal. <br>
+                     J'ai les connaissances de base sur les langages de programmations (HTML5/CSS3/JAVA SCRIPT) <br>
+                      et les connaissance de base en bureautique telque(WORD,EXCEL,POWERPOINT). <br>
+                      Je suis aussi une formation en Génie Informatique à HEMI(Haute Ecole de Management et de l'Informatique).
+
+                </p>
+                <h1 style="text-decoration: underline;">EXPERIENCE N°2</h1>
+                <p style="font-size: 30px;">
+                    J'ai aussi des connaissance à la réparation des objets électroniques. <br>
+                     J'ai aussi des connaissance à la moniserie, tapisserie,à la maçonnerie <br>
+                      et à l'électricité
+                </p>
+            </div>
+            <!-- End Exprerience -->
+
+            <!-- debut compet -->
+            <div id="skills" style="padding-left: 40%;">
+                <h1 style="text-decoration: underline; padding-top: 100px; font-style: inherit;">Mes Compétences</h1>
+                <h2>HTML <span style="padding-left: 390px;">90%</span></h2>
+                    <div style="border: 1px solid rgb(204, 193, 193); height: 5px; background-color: rgb(234, 225, 225); width: 500px; border-radius: 5px">
+                        <div style="background-color: black; width: 90%; border: 1px solid black; height: 3px; border-radius: 5px"></div>
+                    </div>
+                    <h2>CSS <span style="padding-left: 408px;">90%</span></h2>
+                    <div style="border: 1px solid rgb(204, 193, 193); height: 5px; background-color: rgb(234, 225, 225); width: 500px; border-radius: 5px">
+                        <div style="background-color: black; width: 90%; border: 1px solid black; height: 3px; border-radius: 5px"></div>
+                    </div>
+                    <h2>JavaScript <span style="padding-left: 337px;">70%</span></h2>
+                    <div style="border: 1px solid rgb(204, 193, 193); height: 5px; background-color: rgb(234, 225, 225); width: 500px; border-radius: 5px">
+                        <div style="background-color: black; width: 70%; border: 1px solid black; height: 3px; border-radius: 5px"></div>
+                    </div>
+                    <h2>LANGAGE C<span style="padding-left: 320px;">80%</span></h2>
+                    <div style="border: 1px solid rgb(204, 193, 193); height: 5px; background-color: rgb(234, 225, 225); width: 500px; border-radius: 5px">
+                        <div style="background-color: black; width: 80%; border: 1px solid black; height: 3px; border-radius: 5px"></div>
+                    </div>
+                    <h2>BUREAUTIQUE<span style="padding-left: 290px;">70%</span></h2>
+                    <div style="border: 1px solid rgb(204, 193, 193); height: 5px; background-color: rgb(234, 225, 225); width: 500px; border-radius: 5px">
+                        <div style="background-color: black; width: 70%; border: 1px solid black; height: 3px; border-radius: 5px"></div>
+                    </div>
+                    <h2>AdobeILLustrator<span style="padding-left: 267px;">50%</span></h2>
+                    <div style="border: 1px solid rgb(204, 193, 193); height: 5px; background-color: rgb(234, 225, 225); width: 500px; border-radius: 5px">
+                        <div style="background-color: black; width: 50%; border: 1px solid black; height: 3px; border-radius: 5px"></div>
+                    </div>
+                    <h2>AdobePhotoShop<span style="padding-left: 267px;">60%</span></h2>
+                    <div style="border: 1px solid rgb(204, 193, 193); height: 5px; background-color: rgb(234, 225, 225); width: 500px; border-radius: 5px">
+                        <div style="background-color: black; width: 60%; border: 1px solid black; height: 3px; border-radius: 5px"></div>
+                    </div>
+
+            </div>
+            <!-- end compet -->
+            <!-- contact -->
+            <div id="contact">
+                <h1 style="text-decoration:underline;text-align: center; padding-top:100px;">Contacter moi sur  </h1>
+                
+            </div>
+            <h1 style="font-weight: bold;">👤: Ndiame GUEYE</h1><br>
+            <h1 style="font-weight: bold;">📍: HLM3 Villa N°133</h1><br>
+            <h1 style="font-weight: bold;">☎️: +221 77 495 14 00</h1><br>
+            <h1 style="font-weight: bold;">📧: Ndiambe2791@gmail.com</h1><br>
+            <h1 style="font-weight: bold;">📧: Ndiame.gueye@unchk.edu.sn</h1>
+            <!-- End contact -->
+
+             <!-- pied de page -->
+    <footer style="width: 100%; background-color: rgba(12, 12, 10, 0.815); height: 50px; color: #fff; text-align: center; ">
+        <p style="padding-top: 13px;">Copyright &#169 Ndiambe2791@gmail.com</p>
+    </footer>
+             
+        </div>
+    </div>
+    
+
+</body>
+<!-- script -->
+<script>
+    document.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+        
+        if (window.scrollY > 0) {
+            header.classList.add('scrolled');
+        }
+        else {
+            header.classList.remove('scrolled');
+        }
+    });
+</script>
+</html>
